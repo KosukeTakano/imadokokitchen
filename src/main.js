@@ -11,14 +11,14 @@ import 'bootstrap/dist/js/bootstrap.min'
 Vue.config.productionTip = false
 
 const firebaseconfig = {
-  apiKey: 'AIzaSyC58NGPjIide6lgZquXm-0mFjecE-wsfJs',
-  authDomain: 'my-project01-2b200.firebaseapp.com',
-  databaseURL: 'https://my-project01-2b200.firebaseio.com',
-  projectId: 'my-project01-2b200',
-  storageBucket: 'my-project01-2b200.appspot.com',
-  messagingSenderId: '555349876649',
-  appId: '1:555349876649:web:f77b0993bdb87709316eb8',
-  measurementId: 'G-K6YP9EVVWN'
+  apiKey: '',
+  authDomain: '',
+  databaseURL: '',
+  projectId: '',
+  storageBucket: '',
+  messagingSenderId: '',
+  appId: '',
+  measurementId: ''
 }
 firebase.initializeApp(firebaseconfig)
 
@@ -36,7 +36,7 @@ firebase.auth().onAuthStateChanged(currentUser => {
 
 Vue.use(VueGoogleMaps, {
   load: {
-    key: 'AIzaSyCHvSFSRJ5WNe5ii8MzJU_Gts0398251Nw',
+    key: '',
     libraries: 'places',
     region: 'JP',
     language: 'ja'
